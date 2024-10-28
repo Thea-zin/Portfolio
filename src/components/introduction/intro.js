@@ -1,8 +1,7 @@
 import React from 'react';
-
 function Intro() {
   return (
-    <div className='container mx-auto p-4 flex items-center justify-between w-[92%] '>
+    <div className='container mx-auto p-4 flex items-center justify-between w-[92%] bg-cover rounded-lg ' style={{ backgroundImage: `url(${"/Assets/background.png"})` , backgroundRepeat: "no-repeat" , backgroundSize: "cover"}} >
       <div>
             <h1 className='text-5xl font-bold'>Hi, I'm Sothea👋</h1>
             <p>I'am Software engineering student focusing buidling a better solution and user friendly interface</p>

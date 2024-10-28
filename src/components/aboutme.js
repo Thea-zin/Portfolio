@@ -5,9 +5,9 @@ function Aboutme() {
 
     <div className="container mx-auto p-4  w-[92%] bg-gray-900  mt-16">
         
-        <div className="bg-slate-500 w-32 rounded-2xl p-1 text-center font-bold mx-auto mt-10">
-             about me
-        </div>
+        <p className="bg-slate-500 w-32 rounded-2xl p-1 text-center font-bold mx-auto mt-10 text-xs">
+              About Me
+            </p>
         
         <div className="container mx-auto p-4 flex items-start justify-between gap-12 mt-7">
             <div>
